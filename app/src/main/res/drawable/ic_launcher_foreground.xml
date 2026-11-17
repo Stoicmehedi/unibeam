@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- UniBeam: a remote with two beam arcs. Content kept inside the 66dp safe zone. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Remote body -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M47,50 h14 a4,4 0 0 1 4,4 v24 a4,4 0 0 1 -4,4 h-14 a4,4 0 0 1 -4,-4 v-24 a4,4 0 0 1 4,-4 z" />
+    <!-- Main button -->
+    <path
+        android:fillColor="#1A5FB4"
+        android:pathData="M50,60 a4,4 0 1 0 8,0 a4,4 0 1 0 -8,0 z" />
+    <!-- Small buttons -->
+    <path
+        android:fillColor="#1A5FB4"
+        android:pathData="M49,68 h4 v3 h-4 z M55,68 h4 v3 h-4 z M49,74 h4 v3 h-4 z M55,74 h4 v3 h-4 z" />
+
+    <!-- Inner beam arc -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M45,41 a12.7,12.7 0 0 1 18,0" />
+    <!-- Outer beam arc -->
+    <path
+        android:strokeColor="#97F0FF"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M38,34 a22.6,22.6 0 0 1 32,0" />
+</vector>

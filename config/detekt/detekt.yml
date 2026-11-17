@@ -1,0 +1,31 @@
+naming:
+  FunctionNaming:
+    ignoreAnnotated: ['Composable']
+  # Navigation files hold a route object plus its NavGraphBuilder extensions.
+  MatchingDeclarationName:
+    active: false
+
+complexity:
+  LongParameterList:
+    ignoreDefaultParameters: true
+    ignoreAnnotated: ['Composable']
+  LongMethod:
+    ignoreAnnotated: ['Composable']
+
+style:
+  MagicNumber:
+    ignorePropertyDeclaration: true
+    ignoreCompanionObjectPropertyDeclaration: true
+    excludes: ['**/test/**', '**/theme/**']
+  UnusedPrivateMember:
+    ignoreAnnotated: ['Preview']
+
+formatting:
+  FunctionNaming:
+    ignoreWhenAnnotatedWith: ['Composable']
+  TrailingCommaOnCallSite:
+    active: true
+    useTrailingCommaOnCallSite: true
+  TrailingCommaOnDeclarationSite:
+    active: true
+    useTrailingCommaOnDeclarationSite: true

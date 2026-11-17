@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="remote_empty_title">No TV connected</string>
+    <string name="remote_empty_message">Find a TV on your Wi-Fi network or pair one over Bluetooth to start controlling it.</string>
+    <string name="remote_empty_action">Find a TV</string>
+</resources>

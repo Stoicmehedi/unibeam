@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="devices_empty_title">No TVs yet</string>
+    <string name="devices_empty_message">Make sure your phone and TV are on the same Wi-Fi network, then scan for TVs.</string>
+    <string name="devices_scan">Scan for TVs</string>
+</resources>
